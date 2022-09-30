@@ -8,7 +8,7 @@ const Header: React.FC = () => (
         <div className="flex flex-col sm:flex-row items-center mb-4 sm:mb-0">
           <img src="/LABEL.png" className="w-48" alt="React Bricks" />
           <div className="sm:ml-8 flex space-x-5 text-center">
-            <Link href="/blog">
+            <Link href="/home">
               <a className="text-gray-500 hover:text-pink-700">Home</a>
             </Link>
             <Link href="/about-us">
@@ -16,11 +16,7 @@ const Header: React.FC = () => (
             </Link>
           </div>
         </div>
-        <Link href="/admin" prefetch={false}>
-          <a className="py-2 px-5 rounded text-white font-medium bg-cyan-500 hover:bg-cyan-600 hover:shadow-lg transition duration-200">
-            Edit content
-          </a>
-        </Link>
+        
       </div>
     </div>
   </header>
