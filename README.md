@@ -5,7 +5,7 @@ Kick-start your project with this boilerplate for a complete Next.js website bas
 ## 🚀 Quick start
 
 We suggest that you use the CLI and choose this starter.  
-In this way you will have the credentials already set up in a `.env.local` file:
+
 
 ```bash
 npx create-reactbricks-app
